@@ -1,0 +1,50 @@
+/* ********************************************* */
+/* HERO SECTION  */
+/* ********************************************* */
+
+.section-hero {
+  padding: 9.8rem 0;
+  background: linear-gradient(#ffd43b, #fff);
+}
+
+/* ********************************************* */
+/* ACCESS SECTION  */
+/* ********************************************* */
+
+.section-access {
+  padding: 6.4rem 0;
+}
+
+.intro {
+  margin-bottom: 7rem;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.access-img {
+  width: 100%;
+  border-radius: 5rem;
+}
+
+.access-number {
+  font-size: 7.4rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 1.2rem;
+}
+
+.access-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.ul-access {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}

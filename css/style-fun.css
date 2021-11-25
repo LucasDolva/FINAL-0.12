@@ -1,0 +1,43 @@
+/* ********************************************* */
+/* PAGE SECTION */
+/* ********************************************* */
+
+body {
+  color: #f8f9fa;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(17, 17, 17, 0.753)),
+    url(/img/fun-page/diego-ph-background-unsplash.jpg);
+
+  background-size: cover;
+}
+
+/* ********************************************* */
+/* HEADER SECTION */
+/* ********************************************* */
+
+.header {
+  background: none;
+}
+
+/* ********************************************* */
+/* RESKIN GENERAL SECTION */
+/* ********************************************* */
+
+.heading-primary-fun {
+  color: #f8f9fa;
+}
+
+.heading-tertiary-fun {
+  color: #f8f9fa;
+}
+
+/* ********************************************* */
+/* MAIN SECTION */
+/* ********************************************* */
+
+.card-pic {
+  width: 100%;
+  border-radius: 1000px;
+}

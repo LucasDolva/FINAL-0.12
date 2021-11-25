@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="Stylesheet" href="css/style-accessibility.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Accessibility</title>
+  </head>
+
+  <body>
+    <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    ''''''''''''''''''''''''''''''''''''''''''''''''''''HEADER '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' -->
+
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Oslomet logo"
+          src="img/logos/1200px-Logo_of_Oslo_Metropolitan_University.svg.png"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="index.html" class="main-nav-link">Home Page</a></li>
+          <li>
+            <a href="reflection.html" class="main-nav-link">Reflection Essay</a>
+          </li>
+          <li>
+            <a href="topical.html" class="main-nav-link">Topical Information</a>
+          </li>
+          <li><a href="fun.html" class="main-nav-link nav-fun">Fun Page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' HERO ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+      <section class="section-hero">
+        <div class="hero-container container">
+          <h1 class="heading-primary">Our Accessibility design decisions</h1>
+          <p class="subheading">
+            From Typography too color contrast, in this page we discuss our
+            attemts to make our blog as accsessible as possible.
+          </p>
+        </div>
+      </section>
+
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' MAIN ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+
+      <!-- INTRO  -->
+      <section class="section-access">
+        <div class="container intro">
+          <h2 class="heading-secondary">Introduction</h2>
+          <p class="intro-txt access-description">
+            Below we explain our accessibility choices. The steps are in
+            importance order, so we tried to show our thought process through
+            theese steps below, where number 1 is most important and so on. We
+            recognize that every step is as important as the other, but this is
+            how we went through our accessibility design. <br />
+            <br />
+            We tried to design our page with accessibility in mind from the get
+            go, and below we wil discuss the changes we made after checking
+            accessibility through a WCAGG checker.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="grid grid--2-cols grid--center-vert">
+            <!-- STEP 1 -->
+
+            <div class="img-box">
+              <img
+                class="access-img"
+                src="img/access-page/brett-jordan-unsplash-typo.jpg"
+                alt="a nice picture of some bold text on paper"
+              />
+            </div>
+            <div class="txt-box">
+              <p class="access-number">01</p>
+              <h3 class="heading-tertiary">Typography and colors</h3>
+              <p class="access-description">
+                Our good teacher Carlos taught us that good color contrast is
+                key for accessebility. So every color that is chosen on our page
+                is checked for contrast throgh
+                <a
+                  target="blank"
+                  class="link"
+                  href="https://coolors.co/contrast-checker/333333-ffffff"
+                  >Coolors contrast checker</a
+                >
+                <br />
+                <br />
+                In Addition <strong>our typeface "rubik" </strong> was chosen
+                due to its more playful <em>circular style</em> with a falback
+                typeface of sans-serif. We made sure all text had excelent color
+                contrast, and was big enough for me to se without glasses!
+              </p>
+            </div>
+
+            <!-- STEP 2 -->
+
+            <div class="txt-box">
+              <p class="access-number">02</p>
+              <h3 class="heading-tertiary">Consistency in design</h3>
+              <p class="access-description">
+                We know a person with visual disibility and actually consoulted
+                her for feedback on what is important. For starters
+              </p>
+              <ul class="ul-access">
+                <li class="access-description">
+                  Accessibility in mind from the get go
+                </li>
+                <li class="access-description">all images have alt text</li>
+                <li class="access-description">
+                  the NAV is easily identifiable, and consistent throught-out
+                  the page
+                </li>
+                <li class="access-description">
+                  page is manouverable with a keybord, and your eyes closed
+                </li>
+              </ul>
+            </div>
+
+            <div class="img-box">
+              <img
+                class="access-img access-img2"
+                src="img/access-page/hal-gatewood-unsplash (1).jpg"
+                alt="some hand drawn web-page sketches on a peice of paper"
+              />
+            </div>
+
+            <!-- STEP 3 -->
+
+            <div class="img-box">
+              <img
+                class="access-img"
+                src="img/access-page/scott-graham-unsplash (1).jpg"
+                alt="a nice picture of some bold text on paper"
+              />
+            </div>
+            <div class="txt-box">
+              <p class="access-number">03</p>
+              <h3 class="heading-tertiary">Content and performance</h3>
+              <p class="access-description">
+                For Content, we made sure that no essential content is conveyed
+                via images. All essential content is either a strong or a em
+                tag. <br />
+                <br />For performance we the
+                <a target="blank" class="link" href="https://squoosh.app/"
+                  >Squoosh app</a
+                >
+                in order to compress and resize needlessly big images, so that
+                the page may runn faster. We acctually saw a significant
+                performance enhancment due to this big effort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    '''''''''''''''''''''''''''''''''''''''''''''' Conclution ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+      <section class="section-conc">
+        <div class="container">
+          <h2 class="heading-secondary">
+            Conclution after using a WCAGG validator
+          </h2>
+          <p class="access-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            iure veniam in non, voluptatibus totam facere aliquam adipisci sequi
+            rem nihil facilis. Exercitationem ipsum tenetur sunt ab adipisci
+            asperiores deserunt?Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Iste at ducimus eos minima modi quae minus
+            accusamus adipisci ipsum labore soluta debitis quibusdam, totam est
+            sunt quos dolores nisi vel. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. At minus cum quidem, obcaecati amet dolore nam in
+            sit, magnam quam temporibus itaque aliquam modi? Iure nihil vel
+            iusto consequatur accusantium. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Beatae facilis minima numquam atque
+            eius? Ex delectus voluptatem in exercitationem quisquam saepe id
+            cum, ut soluta voluptas quibusdam autem dolorum dolorem? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Dolorem repellendus ea
+            eveniet laboriosam aliquid veniam voluptates ipsam, consequatur,
+            laborum architecto quam deleniti facere ullam possimus voluptate
+            blanditiis molestias quia repellat.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' FOOTER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img
+              class="footer-logo"
+              alt="Oslometg logo"
+              src="img/logos/1200px-Logo_of_Oslo_Metropolitan_University.svg.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2021 by ExamWeb Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="adress-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="adress">700 Dummy St. Oslo Norway, DU 9000</p>
+
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
+              <br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >students@oslomet.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Page Map</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-link" href="index.html">Home Page</a></li>
+            <li>
+              <a class="footer-link" href="reflection.html">Reflection Essay</a>
+            </li>
+            <li><a class="footer-link" href="#">Accessibility</a></li>
+            <li><a class="footer-link" href="#">Topical Information</a></li>
+            <li><a class="footer-link" href="#">Fun Page</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
